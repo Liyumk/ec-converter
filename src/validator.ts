@@ -24,12 +24,11 @@ export function isValidEthiopianDate(date: EthiopianDate): boolean {
   }
 
   // 13th month (Pagume) has 5 days in a regular year and 6 days in a leap year
-  // In some calculations, day 7 can appear for the last day of the year before new year
   if (month === 13) {
     // Ethiopian leap year is every 4 years, but the rule is different from Gregorian
     // Ethiopian leap year is when (year + 1) % 4 === 0
     const isLeapYear = (year + 1) % 4 === 0;
-    const maxDays = isLeapYear ? 7 : 6; // Allow up to 7 days for leap years, 6 for regular years
+    const maxDays = isLeapYear ? 6 : 5; // 6 days for leap years, 5 for regular years
 
     if (day > maxDays) {
       return false;

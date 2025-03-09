@@ -15,4 +15,4 @@ coverage/
 *.swo
 .DS_Store 
 .cursorrules
-
+.cursor

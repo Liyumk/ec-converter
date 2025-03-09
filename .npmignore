@@ -1,0 +1,23 @@
+# Source code
+src/
+tests/
+
+# Config files
+.github/
+.gitignore
+tsconfig.json
+jest.config.js
+
+# Development files
+*.test.ts
+*.spec.ts
+coverage/
+.vscode/
+.idea/
+
+# Misc
+node_modules/
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+.DS_Store 

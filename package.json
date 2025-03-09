@@ -1,0 +1,42 @@
+{
+  "name": "ethio-gc",
+  "version": "0.1.0",
+  "description": "A library for converting between Ethiopian calendar and Gregorian calendar",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "test": "jest",
+    "prepublishOnly": "npm run build && npm test"
+  },
+  "keywords": [
+    "ethiopian",
+    "calendar",
+    "date",
+    "converter",
+    "gregorian",
+    "ethiopia",
+    "amharic"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "type": "commonjs",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/ec-converter.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yourusername/ec-converter/issues"
+  },
+  "homepage": "https://github.com/yourusername/ec-converter#readme",
+  "devDependencies": {
+    "@types/jest": "^29.5.14",
+    "@types/node": "^22.13.10",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.2.6",
+    "typescript": "^5.8.2"
+  }
+}

@@ -21,17 +21,17 @@
     "ethiopia",
     "amharic"
   ],
-  "author": "Your Name",
+  "author": "Liyu M.",
   "license": "MIT",
   "type": "commonjs",
   "repository": {
     "type": "git",
-    "url": "https://github.com/yourusername/ec-converter.git"
+    "url": "https://github.com/Liyumk/ec-converter.git"
   },
   "bugs": {
-    "url": "https://github.com/yourusername/ec-converter/issues"
+    "url": "https://github.com/Liyumk/ec-converter/issues"
   },
-  "homepage": "https://github.com/yourusername/ec-converter#readme",
+  "homepage": "https://github.com/Liyumk/ec-converter#readme",
   "devDependencies": {
     "@semantic-release/changelog": "^6.0.3",
     "@semantic-release/git": "^10.0.1",

@@ -3,7 +3,84 @@
     "master"
   ],
   "plugins": [
-    "@semantic-release/commit-analyzer",
+    [
+      "@semantic-release/commit-analyzer",
+      {
+        "preset": "angular",
+        "releaseRules": [
+          {
+            "type": "major",
+            "release": "major"
+          },
+          {
+            "type": "minor",
+            "release": "minor"
+          },
+          {
+            "type": "patch",
+            "release": "patch"
+          },
+          {
+            "type": "breaking",
+            "release": "major"
+          },
+          {
+            "scope": "major",
+            "release": "major"
+          },
+          {
+            "scope": "minor",
+            "release": "minor"
+          },
+          {
+            "scope": "patch",
+            "release": "patch"
+          },
+          {
+            "type": "feat",
+            "release": false
+          },
+          {
+            "type": "fix",
+            "release": false
+          },
+          {
+            "type": "docs",
+            "release": false
+          },
+          {
+            "type": "style",
+            "release": false
+          },
+          {
+            "type": "refactor",
+            "release": false
+          },
+          {
+            "type": "perf",
+            "release": false
+          },
+          {
+            "type": "test",
+            "release": false
+          },
+          {
+            "type": "ci",
+            "release": false
+          },
+          {
+            "type": "chore",
+            "release": false
+          }
+        ],
+        "parserOpts": {
+          "noteKeywords": [
+            "BREAKING CHANGE",
+            "BREAKING CHANGES"
+          ]
+        }
+      }
+    ],
     "@semantic-release/release-notes-generator",
     "@semantic-release/npm",
     "@semantic-release/github",

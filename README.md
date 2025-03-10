@@ -2,6 +2,9 @@
 
 A JavaScript/TypeScript library for converting between Ethiopian calendar and Gregorian calendar.
 
+![npm](https://img.shields.io/npm/v/ec-converter)
+![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/Liyumk/ec-converter/npm-publish.yml)
+
 ## Features
 
 - Convert dates from Gregorian to Ethiopian calendar

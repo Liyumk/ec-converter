@@ -1,6 +1,6 @@
 {
   "name": "ec-converter",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "A library for converting between Ethiopian calendar and Gregorian calendar",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
